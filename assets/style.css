@@ -1,0 +1,73 @@
+*,
+*::before
+::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-primary: "Raleway", sans-serif;
+    --ff-secondary: "Syne Tactile", sans-serif;
+    --fw-reg: 300;
+    --clr-light: #fff;
+    --clr-dark: #000;
+    --clr-accent: #660000;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1rem;
+
+}
+
+body {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    margin: 0;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-body);
+}
+
+section {
+    padding: 5em 2em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+}
+
+.section__ttle {
+    margin-bottom: .25rem;
+
+}
+
+.section__subtitle {
+    margin: 0;
+    font-size: var(--fs-h3);
+}
+
+.section__subtitle__services,
+.section__subtitle__about {
+    background-color: var(--clr-accent);
+    font-family: var(--ff-secondary);
+}
+
