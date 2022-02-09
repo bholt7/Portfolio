@@ -169,26 +169,9 @@ h3 {
 @media (min-width: 600px) {
     .about-me {
         display: grid;
-        grid-template-columns: 1fr 200px;
-        grid-template-areas:
-            "title img"
-            "subtitle img"
-            "text img";
-        grid-column-gap: 3em;    
+        grid-template-columns: 1fr 200px;    
     }
 
-    .section__ttle-about {
-        grid-area: title;
-    }
-
-    .section__subtitle__about{
-        grid-column: 1/-1;
-        grid-row: 2;
-    }
-    .pic2 {
-        margin-right: 0;
-        grid-area: img;
-    }
     .my-work {
         display: grid;
         grid-template-columns: auto;
