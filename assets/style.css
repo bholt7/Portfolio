@@ -139,6 +139,9 @@ h3 {
 }
 
 .about-me {
+    background-color: var(--clr-accent);
+    border: 1rem solid goldenrod;
+    border-radius: .5rem;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -168,8 +171,8 @@ h3 {
 
 @media (min-width: 600px) {
     .about-me {
-        display: grid;
-        grid-template-columns: 1fr 200px;    
+        display: flex;
+        flex-direction: column; 
     }
 
     .my-work {
