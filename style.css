@@ -147,9 +147,12 @@ h3 {
 }
 
 .my-work {
+    display: flex;
+    flex-wrap: wrap;
     background-color: goldenrod;
     color: var(--clr-accent);
     text-align: center;
+    
 }
 
 .port {
